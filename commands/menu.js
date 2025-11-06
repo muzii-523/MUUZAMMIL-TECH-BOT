@@ -4,7 +4,7 @@ const path = require('path');
 
 async function helpCommand(sock, chatId, message) {
     // Note: 'settings' and 'global' variables are placeholders based on the input code structure.
-    const ownerDisplay = settings.botOwner || 'MuzammilMD Official';
+    const ownerDisplay = settings.botOwner || 'ArslanMD Official';
     const prefix = settings.prefix || '.';
     const version = settings.version || '2.2.6 alpha-8';
     
@@ -24,23 +24,23 @@ async function helpCommand(sock, chatId, message) {
           Commands ki list neeche dekhiye.
 ━─━─━─━─━─━─━─━─━─━─━─━─━─━─━─━─━─━─━─━─━─━─━─━─━─━─
 
-📚 *𝐌𝐄𝐍𝐔 𝐈𝐍𝐃𝐄𝐗 (1-12):*
-> Category dekhne ke liye number type karein ya reply karein.
+📚 *𝐌𝐄𝐍𝐔 𝐈𝐍𝐃𝐄𝐗 :*
+> ULTRA POWERFULL BOT
 
 ╭━━━✦ *𝐄𝐋𝐈𝐓𝐄 𝐂𝐀𝐓𝐄𝐆𝐎𝐑𝐈𝐄𝐒* ✦━━━╮
 │
-│ ❶ 🌍  *GENERAL UTILS*
-│ ❷ 🛡️  *GROUP MANAGEMENT*
-│ ❸ 🔑  *OWNER EXCLUSIVE*
-│ ❹ 🖼️  *IMAGE & STICKER LAB*
-│ ❺ ✍️  *TEXT DESIGNERS*
-│ ❻ 🎲  *FUN & GAMES*
-│ ❼ 🧠  *AI POWER HUB*
-│ ❽ 📥  *MEDIA DOWNLOADS*
-│ ❾ 💻  *DEV & GITHUB*
-│ ❿ 💖  *ANIME & LOVE VIBES*
-│ ⓫ 🛠️  *MISC TOOLS*
-│ ⓬ 🛑  *BUG REPORTS*
+│  🌍  *GENERAL UTILS*
+│  🛡️  *GROUP MANAGEMENT*
+│  🔑  *OWNER EXCLUSIVE*
+│  🖼️  *IMAGE & STICKER LAB*
+│  ✍️  *TEXT DESIGNERS*
+│  🎲  *FUN & GAMES*
+│  🧠  *AI POWER HUB*
+│  📥  *MEDIA DOWNLOADS*
+│  💻  *DEV & GITHUB*
+│  💖  *ANIME & LOVE VIBES*
+│  🛠️  *MISC TOOLS*
+│  🛑  *BUG REPORTS*
 │
 ╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯
 
@@ -58,8 +58,8 @@ async function helpCommand(sock, chatId, message) {
                     forwardingScore: 10,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363403831162407@newsletter',
-                        newsletterName: '✨ MUZAMMIL-MTH ✨',
+                        newsletterJid: '120363348739987203@newsletter',
+                        newsletterName: '✨ MUZAMMIL-MTH UPDATES ✨',
                         serverMessageId: -1
                     }
                 }
@@ -71,8 +71,8 @@ async function helpCommand(sock, chatId, message) {
                     forwardingScore: 10,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363403831162407@newsletter',
-                        newsletterName: '✨ MUZAMMIL-MTH ✨',
+                        newsletterJid: '120363348739987203@newsletter',
+                        newsletterName: '✨ MUZAMMIL-MTH UPDATES ✨',
                         serverMessageId: -1
                     }
                 }
@@ -94,4 +94,4 @@ async function helpCommand(sock, chatId, message) {
     }
 }
 
-module.exports = helpCommand;
+module.exports = menuCommand;
